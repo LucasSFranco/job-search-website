@@ -1,52 +1,22 @@
-# Imba 2 Template [![Netlify Status](https://api.netlify.com/api/v1/badges/57f0ad52-688e-4269-8cb1-77c32b61ee00/deploy-status)](https://app.netlify.com/sites/imba2-hello-world/deploys)
-
-A local project starter template for a Imba v2-alpha.
-
-> You are running a bleeding 🩸edge project 👨🏾‍🚀👩🏼‍🚀. Expect bugs and report them❗
-
-Some of the amazing improvements to the next iteration of Imba are
-- Tags now compile to native web components 🤯
-- Lots and lots of improvements from ES concepts
-- Support for slots
-- Smart Styles [latest PR info](https://github.com/imba/imba/pull/362)
-
-For a list of other updates read: 
-- [Current status of Imba 2.0](https://github.com/imba/imba/issues/263)
-- [Imba 2 - a new age](https://github.com/imba/imba/pull/258)
-
-## Installation
-
-On GitHub you can use this repository as a template for new projects, just click [Use this template][0].
-
-Alternatively clone this repository into your desired directory. Replace `PROJECT_NAME` with your desired folder name, or remove for default "template" name.
-
-```
-git clone https://github.com/imba/template.git PROJECT_NAME
-```
-
-## Running the App
-
-The commands below assume you are using either yarn or npm (not both).
-
-### Install the Dependencies
-
-```
-yarn # npm install
-```
-
-### Start the Server
-
-```
-yarn start # npm start
-```
-
-To see the app running open [http://localhost:10001] [0] in the browser.
-
-Have fun!
-
-PS: This project is automatically configured with hot module reloading.
+# Site de procura de empregos <sup><sub>[DEMO](https://site-empregos.web.app/)</sub></sup>
+<sup>123</sup>
+&nbsp;&nbsp;&nbsp;&nbsp;Foi desenvolvido para um projeto escolar utilizando as seguintes tecnologias:
+- Imba: Linguagem de programação para web que apresenta uma sintaxe limpa e legível inspirada em Ruby, compila para JavaScript legível e de alto desempenho e funciona dentro do ecossistema existente. Imba utiliza o conceito de *memoized DOM* que é muito mais rápido do que as bibliotecas *virtual DOM*, como é possível ver no [artigo](https://www.freecodecamp.org/news/the-virtual-dom-is-slow-meet-the-memoized-dom-bb19f546cc52/).
+- Firebase: Plataforma desenvolvida pela Google e que fornece diversas ferramentas para desenvolver aplicações web, tais como autenticação, banco de dados, hosting, storage, etc.
+- Bootstrap: Framework web para desenvolvimento de componentes de interface e front-end para sites e aplicações web.
+- Material Icons: Biblioteca de ícones.
+- IMask: Biblioteca feita especificamente para criar máscaras para os valores dos `input`'s HTML.
 
 
-[0]: http://localhost:10001
+### O que aprendi?
 
-[1]: https://github.com/imba/template/generate
+&nbsp;&nbsp;&nbsp;&nbsp;Acredito que em todos os projetos desenvolvidos pode-se aprender um pouco mais sobre as tecnologias empregadas, no entanto é possível citar aquilo que agregou mais ao meu conhecimento:
+
+**Window.location**  
+&nbsp;&nbsp;&nbsp;&nbsp;Como Imba é uma linguagem em desenvolvimento, não havia um *router* para criar as rotas da aplicação, portanto foi necessário aprender a utilizar o `window.location` do JavaScript para criar um sistema de rotas básico para o funcionamento do website.
+
+**Firebase**  
+&nbsp;&nbsp;&nbsp;&nbsp;Eu nunca havia utilizado um banco de dados em um aplicação web, mas queria aprender a usar. Por isso, resolvi empregar o Firebase para fazer o papel de *backend*, já que possui vários serviços prontos, como o de autenticação, facilitando bastante o desenvolvimento para quem desejava começar. Então, durante a elaboração do projeto, aprendi a utilizar o Cloud Firestore (banco de dados do Firebase) e também o sistema de autenticação. 
+
+**Máscaras**  
+&nbsp;&nbsp;&nbsp;&nbsp;Eu também queria utilizar máscaras nos `input`'s da aplicação, então utilizei o IMasks para me auxiliar nessa tarefa, tendo então que estudar seu funcionamento. 
