@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "build": "imba-rollup",
+    "start": "imba-rollup --watch --serve --hmr",
+    "dev": "imba-rollup --watch --serve --hmr",
+    "check-version": "imbac --version"
+  },
+  "dependencies": {
+    "firebase": "^7.17.1",
+    "imask": "^6.0.5",
+    "imba": "^2.0.0-alpha.69",
+    "imba-rollup": "^2.0.0-alpha.57"
+  },
+  "devDependencies": {}
+}
