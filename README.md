@@ -6,6 +6,3 @@
 - Bootstrap: Framework web para desenvolvimento de componentes de interface e front-end para sites e aplicações web.
 - Material Icons: Biblioteca de ícones.
 - IMask: Biblioteca feita especificamente para criar máscaras para os valores dos `input`'s HTML.
-- JavaScript. 
-- HTML.
-- CSS.
